@@ -29,3 +29,17 @@ button {
     text-overflow: clip;
     background: #0199d9;
 }
+
+@media only screen and (max-width: 960px) {
+    .form-fields {
+        flex-direction: column;
+        align-items: inherit;
+        margin-bottom: 2em;
+    }
+    input {
+        margin-right: 0;
+    }
+    button {
+        margin: 2em 0;
+    }
+  }
