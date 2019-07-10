@@ -1,0 +1,29 @@
+.form-fields {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    flex-grow: 1;
+    display: inline-block;
+    box-sizing: content-box;
+    padding: 10px 20px;
+    border: 0 solid #28a0ef;
+    border-bottom-width: 3px;
+    color:#28a0ef;
+    margin: 2em 2em 2em 0;
+    text-overflow: clip;
+    background: #fff;
+}
+
+button {
+    border-color: #0199d9;
+    display: inline-block;
+    box-sizing: content-box;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: rgba(255,255,255,1);
+    text-overflow: clip;
+    background: #0199d9;
+}

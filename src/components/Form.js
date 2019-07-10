@@ -1,0 +1,12 @@
+import React from 'react';
+import './Form.css';
+
+const Form = props => (
+    <form className="form-fields" onSubmit={props.getWeather}>
+        <input type="text" name="city" placeholder="City..."/>
+        <input type="text" name="country" placeholder="Country..."/>
+        <button>Get Weather</button>
+    </form>
+);
+
+export default Form;
