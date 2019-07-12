@@ -19,3 +19,14 @@ body {
     flex-direction: column;
     align-items: stretch;
 }
+
+@media only screen and (max-width: 960px) {
+    .app-container {
+        position: relative;
+        padding: 1em;
+        top: inherit;
+        left: initial;
+        transform: inherit;
+        margin: 1em;
+    }
+}

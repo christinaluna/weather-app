@@ -1,4 +1,12 @@
 .header-title h1 {
     color: #464646;
     font-size: 36px;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 960px) {
+    .header-title h1 {
+        color: #464646;
+        font-size: 28px;
+    }
 }

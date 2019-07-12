@@ -1,5 +1,5 @@
 import React from 'react';
-import './WeatherContent.css';
+import './Weather.css';
 
 const Weather = props => (
     <div className="weather-content">
@@ -7,7 +7,7 @@ const Weather = props => (
         { props.temperature && <p>Temperature: { props.temperature }</p> }
         { props.humidity && <p>Humidity: { props.humidity }%</p> } 
         { props.description && <p>Conditions: { props.description }</p> }
-        { props.error && <p>{ props.error }</p> }
+        { props.error && <p className="error">{ props.error }</p> }
     </div>
 );
    

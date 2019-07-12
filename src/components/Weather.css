@@ -1,0 +1,9 @@
+.weather-content p {
+    font-size: 20px;
+    color:#464646;
+}
+
+.weather-content p.error {
+    color: red;
+    font-size: 16px;
+}
