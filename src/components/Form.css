@@ -15,8 +15,17 @@ input {
     color:#28a0ef;
     margin: 2em 2em 2em 0;
     text-overflow: clip;
-    background: #fff;
+    background-color: #fff;
     font-size: 16px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+    border-bottom: 3px solid #28a0ef;
+  -webkit-text-fill-color: #505050;
+  -webkit-box-shadow: 0 0 0px 1000px #eef6fb inset;
+  transition: background-color 5000s ease-in-out 0s;
 }
 
 button {
@@ -37,9 +46,9 @@ button {
         margin-bottom: 2em;
     }
     input {
-        margin-right: 0;
+        margin: 1.5em 0 0 0;
     }
     button {
-        margin: 2em 0;
+        margin: 1.5em 0;
     }
 }

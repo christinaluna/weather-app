@@ -14,6 +14,7 @@ class App extends React.Component {
     temperature: undefined,
     humidity: undefined,
     description: undefined,
+    icon: undefined,
     error: undefined
   };
 
@@ -31,6 +32,7 @@ class App extends React.Component {
         temperature: data.main.temp,
         humidity: data.main.humidity,
         description: data.weather[0].description,
+        icon: data.weather[0].icon,
         error: ''
       });
     } else {
@@ -40,6 +42,7 @@ class App extends React.Component {
         temperature: undefined,
         humidity: undefined,
         description: undefined,
+        icon: undefined,
         error: 'Please enter a city and country.'
       })
     }
@@ -58,6 +61,7 @@ class App extends React.Component {
               temperature={this.state.temperature}
               humidity={this.state.humidity}
               description={this.state.description}
+              icon={this.state.icon}
               error={this.state.error} />
               <Footer />
           </div>
