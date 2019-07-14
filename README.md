@@ -1,5 +1,5 @@
 # OpenWeather React App
-<img width="1392" alt="Screen Shot 2019-07-11 at 9 32 32 PM" src="https://user-images.githubusercontent.com/8886330/61102629-7bd6dc00-a423-11e9-999d-68fd9a158da3.png">
+<img width="1253" alt="Screen Shot 2019-07-13 at 11 09 27 PM" src="https://user-images.githubusercontent.com/8886330/61180005-bc6d5b80-a5c3-11e9-8ca1-9505531a6b43.png">
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
